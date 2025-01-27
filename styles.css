@@ -97,9 +97,9 @@ hr {
     margin-bottom: 10px;
 }
 
-button {
+.btn-bactive {
     padding: 10px 20px;
-    background-color: #29abe2;
+    background-color: #30B1A0;
     color: white;
     border: none;
     border-radius: 5px;
@@ -107,18 +107,47 @@ button {
     font-size: 1rem;
 }
 
-button:hover {
-    background-color: #0071BC;
+.btn-bactive:hover {
+    background-color: #25897D; 
 }
+
+.btn-mepure {
+    padding: 10px 20px;
+    background-color: #0E388E;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.btn-mepure:hover {
+    background-color: #0B2D6E; 
+}
+
+.btn-aquasip {
+    padding: 10px 20px;
+    background-color: #DE2425;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.btn-aquasip:hover {
+    background-color: #B71D1E; 
+}
+
 
 /* Footer Section */
 .footer {
-    display: flex; /* Create a flex container */
-    flex-wrap: wrap; /* Allow items to wrap to the next row if needed */
-    align-items: center; /* Center align items vertically */
-    justify-content: space-between; /* Space out items on larger screens */
-    width: 100%; /* Ensure it spans the full width */
-    background-color: #29abe2; /* Consistent footer background */
+    display: flex; 
+    flex-wrap: wrap; 
+    align-items: center; 
+    justify-content: space-between; 
+    width: 100%; 
+    background-color: #29abe2; 
     color: #000;
 }
 
